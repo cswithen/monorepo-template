@@ -1,0 +1,36 @@
+{
+  "name": "@cswithen/scss",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Cody Swithenbank <cody.swithenbank@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "lint": "stylelint \"./**/*.scss\"",
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "sass": "^1.67.0",
+    "stylelint": "^15.10.3",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-prettier": "^4.0.2"
+  },
+  "dependencies": {}
+}

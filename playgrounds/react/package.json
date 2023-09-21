@@ -1,0 +1,17 @@
+{
+  "name": "@cswithen/react-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html -p 3000 --cache-dir ./.parcel-cache"
+  }
+}

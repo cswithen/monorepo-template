@@ -1,0 +1,20 @@
+{
+  "name": "@cswithen/core",
+  "private": true,
+  "dependencies": {},
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  },
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test"
+  }
+}

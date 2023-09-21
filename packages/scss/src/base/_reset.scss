@@ -1,0 +1,21 @@
+/* ============================= *
+     -- CSS Resets -- 
+* ============================= */
+
+/**
+ *
+ * The normalize.css npm package improves browser rendering consistency.
+ * https://necolas.github.io/normalize.css/
+ * https://www.npmjs.com/package/normalize-scss
+ 
+ */
+
+/**  This package was abandoned ~ 2018, imported and updated scss files to lift 
+ * sections from deprecation. If a new version has come out, we should update 
+ * to the package, ensure you place it in the noHoist section of the 
+ * root package.json.
+
+ * /reset/ folder is excluded from stylelint styling via .stylelint.json
+*/
+
+@import "./reset/import-now";

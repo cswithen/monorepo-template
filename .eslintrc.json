@@ -1,0 +1,9 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "importMeta": true
+    }
+  }
+}
