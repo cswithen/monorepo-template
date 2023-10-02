@@ -24,6 +24,9 @@
     "publish": "yarn test && yarn build && yarn lerna publish",
     "commit": "yarn git-cz"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@cswithen"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
