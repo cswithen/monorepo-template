@@ -1,6 +1,5 @@
 {
   "name": "@cswithen/core",
-  "private": true,
   "dependencies": {},
   "workspaces": {
     "packages": [

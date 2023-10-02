@@ -29,5 +29,6 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "gitHead": "b4b83763317213310ce198c4820f0639f12f04f4"
 }

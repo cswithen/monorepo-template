@@ -31,5 +31,6 @@
     "stylelint": "^15.10.3",
     "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-prettier": "^4.0.2"
-  }
+  },
+  "gitHead": "b4b83763317213310ce198c4820f0639f12f04f4"
 }

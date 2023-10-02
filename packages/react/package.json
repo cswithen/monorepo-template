@@ -54,5 +54,6 @@
     "storybook": "^7.4.3",
     "typescript": "^5.2.2",
     "webpack": "^5.88.2"
-  }
+  },
+  "gitHead": "b4b83763317213310ce198c4820f0639f12f04f4"
 }
