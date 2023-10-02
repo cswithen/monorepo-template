@@ -1,6 +1,6 @@
 {
   "name": "@cswithen/scss",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Cody Swithenbank <cody.swithenbank@gmail.com>",
   "homepage": "",
@@ -31,6 +31,5 @@
     "stylelint": "^15.10.3",
     "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-prettier": "^4.0.2"
-  },
-  "dependencies": {}
+  }
 }
